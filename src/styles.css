@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -8,8 +14,53 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 #content img {
     width: 300px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+h3 {
+    margin-bottom: 2px;
+}
+
+.waffles, .beverages {
+    background-color: beige;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.titleandprice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleandprice span {
+    font-weight: bold;
 }
