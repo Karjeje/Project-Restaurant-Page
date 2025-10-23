@@ -8,6 +8,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: antiquewhite;
+}
+
+nav {
+    margin: 20px 0;
 }
 
 #content {
@@ -26,7 +31,7 @@ body {
 }
 
 h1 {
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -54,6 +59,25 @@ h3 {
     flex-direction: column;
     margin-bottom: 20px;
     width: 70%;
+}
+
+.contact {
+    background-color: beige;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.databox {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-self: center;
+    margin-top: 16px;
+}
+
+.databox span {
+    margin-bottom: 4px;
 }
 
 .titleandprice {
